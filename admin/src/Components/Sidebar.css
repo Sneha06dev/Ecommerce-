@@ -1,0 +1,47 @@
+
+.sidebar {
+    width: 220px; 
+    height: 100vh; /*Adjust sidebar width as needed */
+    background-color: #f0f0f0; /* Light background color */
+    padding: 20px 30px; /* Padding inside the sidebar */
+    overflow-y: auto;
+     /* Enable vertical scrolling if needed */
+  }
+  
+  .sidebar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Text color */
+    display: block; /* Make links block-level for full clickable area */
+    margin-bottom: 15px; /* Spacing between sidebar items */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  .sidebar a:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+  }
+  
+  .sidebar-item {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .sidebar-item img {
+    width: 24px; /* Adjust icon width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between icon and text */
+  }
+  
+  .sidebar-item p {
+    margin: 0; /* Remove default margin */
+    font-size: 20px; /* Font size for text */
+  }
+  
+  .sidebar-item.active {
+    background-color: #ddd; /* Highlighted background color */
+  }
+  
+  .sidebar-item.active p {
+    font-weight: bold; /* Bold text for active item */
+    color: #dd055f; /* Highlighted text color */
+  }
+  

@@ -1,0 +1,42 @@
+.addproduct {
+    margin-left: 220px; /* Sidebar width + margin */
+    padding: 20px;
+    margin-top: -700px;
+    font-size: 25px;
+  }
+  
+  .addproduct-itemfield {
+    margin-bottom: 30px;
+    
+  }
+  /* CSS for increasing size and length of product title text box */
+  .addproduct-itemfield input[type="text"] {
+    width: 80%; /* Make the input field full width */
+    padding: 10px; /* Add padding inside the input field */
+    font-size: 1.2rem; /* Increase font size */
+  }
+  .addproduct-itemfield input[type="number"] {
+    width: 90%; /* Make the input field full width */
+    padding: 10px 10px; /* Add padding inside the input field */
+    font-size: 1.2rem;
+    margin-right: 251px; /* Increase font size */
+  }
+  
+  .addproduct-btn {
+    margin-top: -100px;
+    height: 40px;
+    width:100px;
+    margin-left: 20px;
+  }
+  .addproduct-price {
+    display: flex; /* Use flexbox for layout */
+    justify-content: flex-start; /* Space between elements */
+  }
+  
+  
+  .addproduct-itemfield select {
+    width: 10%; /* Make the select box full width */
+    padding: 10px; /* Add padding inside the select box */
+    font-size: 1.2rem; /* Increase font size */
+    height: 40px; /* Set the height of the select box */
+  }

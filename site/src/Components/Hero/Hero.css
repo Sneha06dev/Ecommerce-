@@ -1,0 +1,98 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #ecc4ff, #ffffff); /* Light pink gradient */
+    height: 100vh; /* Make the hero section take full viewport height */
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+.hero-left p {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0; /* Adjusted margin to remove extra space */
+    color: #333;
+    line-height: 1; /* Set line height to 1 to reduce spacing */
+}
+
+.hero-left .woman-icon img {
+    width: 120px; /* Increased size of woman icon */
+    height: 120px; /* Increased size of woman icon */
+    border-radius: 50%; /* Make the image round */
+    margin-top: -150px;
+    margin-right: -400px;
+    margin-left: 55px;
+    position: absolute;
+}
+
+.tagline {
+    display: flex;
+    margin-left: -90px;
+    flex-direction: column;
+    margin-top: 10px; /* Push the tagline down */
+}
+
+.tagline p {
+    font-size: 5em; /* Increased font size for tagline */
+    color: #010001;
+    margin-right: -190px; /* Highlighted color */
+    font-weight: bold; /* Ensure text is bold */
+}
+
+.heo-latest-btn {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.heo-latest-btn div {
+    background-color: #e70c0c;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 105px;
+    font-size: 1.2em;
+    margin-right: 10px;
+    border: 2px solid #fff;
+    transition: background-color 0.3s, transform 0.3s;
+    /* Add transition for smooth effect */
+}
+
+.heo-latest-btn div:hover {
+    background-color: rgb(255, 87, 87);
+    transform: scale(1.05); /* Scale up slightly on hover */
+}
+
+.heo-latest-btn div:active {
+    transform: scale(0.95); /* Scale down slightly when clicked */
+}
+
+
+.heo-latest-btn img {
+    width: 20px; /* Adjust size as necessary */
+    height: 20px; /* Adjust size as necessary */
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.hero-right img {
+    max-width: 100%;
+    height: auto;
+}

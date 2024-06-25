@@ -1,0 +1,117 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ffe7e7, #ffffff); /* Dull white gradient */
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .nav-logo{
+    display:flex;
+  }
+  .nav-logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  .nav-logo p {
+    margin-top: 30px;
+    font-size: large;
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-menu li {
+    margin-right: 0px; /* Increase the margin between list items */
+  }
+  
+  .nav-menu li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+  }
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  .nav-login-cart {
+    display: flex;
+    align-items: center;
+    margin-left: 20px; /* Add more space between button and cart icon */
+  }
+  
+  .nav-login-cart button {
+    background-color: rgb(186, 186, 186);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 15px; /* Increase padding for the button */
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 75px;
+    border: 1px solid black;
+    text-decoration: none;
+  }
+  
+  .nav-login-cart button:active {
+    background-color: rgb(121, 120, 120);
+  }
+  
+  .nav-login-cart img {
+    width: 30px;
+    height: auto;
+    margin-left: 20px;
+  }
+  
+  .navbar {
+    position: relative; /* Set the parent to relative */
+  }
+  
+  .nav-cart-count {
+    position: absolute; /* Set the count element to absolute position */
+    top: 18px; /* Adjust the top position */
+    right: 11px; /* Adjust the right position */
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+  }
+  
+  .nav-menu li {
+    margin-right: 60px;
+    cursor: pointer;
+    position: relative; /* To position the border correctly */
+  }
+  
+  .nav-menu li.active::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; /* Adjust the distance from the bottom */
+    left: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 2px;
+    margin-top: -40px;
+    background-color: brown;
+    color: brown;
+  }
+  
+  .login-button
+ {
+  text-decoration: "none";
+}

@@ -1,0 +1,82 @@
+.popular {
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.popular h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.popular hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.popular-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.popular-item .item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.popular-item .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.popular-item .item p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.popular-item .item p.name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+.popular-item .item p.price {
+    font-size: 16px;
+    color: #555;
+}
+
+.popular-item .item p .new-price {
+    font-weight: bold;
+    color: black;
+}
+
+
+/* Apply strikethrough to the old price */
+.old-price {
+    color: #999;
+}
+
+.old-pricely {
+    text-decoration: line-through;
+    color: #999;
+}
+
+
+
+.popular-item .item:hover {
+    transform: scale(1.05);
+}
