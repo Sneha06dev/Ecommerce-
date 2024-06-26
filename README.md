@@ -1,4 +1,5 @@
-# Fashion Flaire - Trendy Clothes Shopping Website
+# Full Stack Ecommerce Website - MERN Stack
+## Fashion Flaire - Trendy Clothes Shopping Website
 
 **Fashion Flaire** is an online shopping website dedicated to trendy clothes. It features an intuitive user interface for browsing and purchasing clothes, a secure login and signup system, and an admin panel for managing products.
 
