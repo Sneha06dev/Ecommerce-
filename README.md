@@ -44,7 +44,18 @@ ADD PRODUCTS
 **Login Page - Secure JWT Authentication**       
 
 ![Login Page](https://github.com/Sneha06dev/Ecommerce-/assets/172610209/dc99a7fa-3882-4a74-aecf-c48222d63647)
-                     
+
+**Description Page - Each product's complete description alongwith footer**  
+
+![Description](https://github.com/Sneha06dev/Ecommerce-/assets/172610209/9a51a227-1dd0-4819-839a-2ad5774c79e8)
+
+**Product List - All Products details**
+
+![Product List](https://github.com/Sneha06dev/Ecommerce-/assets/172610209/9e78a2f6-9653-4e5c-99f1-2dd8b93d8f84)
+
+**Latest Trends - Get Updated in real time**       
+
+![Latest Trends](https://github.com/Sneha06dev/Ecommerce-/assets/172610209/5ba38237-35b5-48b3-baba-844d63d54dcc)
 
 **Signup Page - Create New User Account**
 
